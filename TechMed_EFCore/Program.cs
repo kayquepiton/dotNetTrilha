@@ -95,14 +95,14 @@ class Program
         Console.WriteLine("\nAtendimentos no banco de dados:");
         foreach (var atendimento in context.Atendimentos)
         {
-            Console.WriteLine($"Id: {atendimento.Id} - DataHora: {atendimento.DataHora} - Médico: {atendimento.Medico.Nome} - Paciente: {atendimento.Paciente.Nome}");
+            Console.WriteLine($"Id: {atendimento.Id} - DataHora: {atendimento.DataHora} - Médico: {atendimento.Medico?.Nome} - Paciente: {atendimento?.Paciente?.Nome}");
         }
 
         // Buscar e exibir todos os exames
         Console.WriteLine("\nExames no banco de dados:");
         foreach (var exame in context.Exames)
         {
-            Console.WriteLine($"Id: {exame.Id} - Local: {exame.Local} - DataHora: {exame.DataHora} - Médico: {exame.Atendimento.Medico.Nome} - Paciente: {exame.Atendimento.Paciente.Nome} - DataHora Atendimento: {exame.Atendimento.DataHora}");
+            Console.WriteLine($"Id: {exame.Id} - Local: {exame.Local} - DataHora: {exame.DataHora} - Médico: {exame.Atendimento?.Medico?.Nome} - Paciente: {exame.Atendimento?.Paciente?.Nome} - DataHora Atendimento: {exame.Atendimento?.DataHora}");
         }
 
         Console.WriteLine("\nFinalizando o programa.");
