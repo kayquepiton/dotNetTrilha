@@ -4,6 +4,14 @@
     <ProjectReference Include="..\CleanArchitecture.Domain\CleanArchitecture.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UserCases\" />
+    <Folder Include="UserCases\CreateUser\" />
+    <Folder Include="UserCases\DeleteUser\" />
+    <Folder Include="UserCases\GetAllUser\" />
+    <Folder Include="UserCases\UpdateUser\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
