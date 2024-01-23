@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "okuBY70qYZqp3JTkHZJF25p7dDYFExBcefowfbRBqo4TY72vNSBxDK0OIYs53mTGt+teEzczfwPRynwPD5J8iw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.WebAPI\\TechMed.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
+    "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\kayqu\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\kayqu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\kayqu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\kayqu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Application\\Techmed.Application.csproj",
-      "projectName": "Techmed.Application",
-      "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Application\\Techmed.Application.csproj",
+      "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Core\\TechMed.Core.csproj",
+      "projectName": "TechMed.Core",
+      "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Core\\TechMed.Core.csproj",
       "packagesPath": "C:\\Users\\kayqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Application\\obj\\",
+      "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

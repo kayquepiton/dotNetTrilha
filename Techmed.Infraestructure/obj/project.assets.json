@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "TechMed.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TechMed.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechMed.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TechMed.Core/1.0.0": {
+      "type": "project",
+      "path": "../Techmed.Core/TechMed.Core.csproj",
+      "msbuildProject": "../Techmed.Core/TechMed.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "TechMed.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kayqu\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Core\\TechMed.Core.csproj": {
+              "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Core\\TechMed.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
