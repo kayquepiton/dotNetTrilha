@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechMed.Core", "Techmed.Domain\TechMed.Core.csproj", "{BEDB668E-66A1-428A-A6D9-C67B40728EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechMed.WebAPI", "TechMed.Api\TechMed.WebAPI.csproj", "{3B4ECA96-E5B2-4565-B234-F799585FEB2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Techmed.Infraestructure", "Techmed.Infraestructure\Techmed.Infraestructure.csproj", "{46563941-FFCA-49E2-8D9A-F47767B3EA5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEDB668E-66A1-428A-A6D9-C67B40728EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDB668E-66A1-428A-A6D9-C67B40728EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDB668E-66A1-428A-A6D9-C67B40728EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDB668E-66A1-428A-A6D9-C67B40728EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4ECA96-E5B2-4565-B234-F799585FEB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4ECA96-E5B2-4565-B234-F799585FEB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4ECA96-E5B2-4565-B234-F799585FEB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4ECA96-E5B2-4565-B234-F799585FEB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46563941-FFCA-49E2-8D9A-F47767B3EA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46563941-FFCA-49E2-8D9A-F47767B3EA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46563941-FFCA-49E2-8D9A-F47767B3EA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46563941-FFCA-49E2-8D9A-F47767B3EA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

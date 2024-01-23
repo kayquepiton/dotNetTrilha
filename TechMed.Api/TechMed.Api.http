@@ -1,0 +1,6 @@
+@TechMed.Api_HostAddress = http://localhost:5096
+
+GET {{TechMed.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
