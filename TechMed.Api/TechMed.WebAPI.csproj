@@ -16,4 +16,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Techmed.Infraestructure\Techmed.Infraestructure.csproj" />
+    <ProjectReference Include="..\Techmed.Domain\TechMed.Core.csproj" />
+  </ItemGroup>
+
 </Project>

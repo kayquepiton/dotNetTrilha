@@ -107,6 +107,26 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TechMed.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TechMed.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechMed.Core.dll": {}
+        }
+      },
+      "Techmed.Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Techmed.Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Techmed.Infraestructure.dll": {}
+        }
       }
     }
   },
@@ -451,12 +471,24 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "TechMed.Core/1.0.0": {
+      "type": "project",
+      "path": "../Techmed.Domain/TechMed.Core.csproj",
+      "msbuildProject": "../Techmed.Domain/TechMed.Core.csproj"
+    },
+    "Techmed.Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../Techmed.Infraestructure/Techmed.Infraestructure.csproj",
+      "msbuildProject": "../Techmed.Infraestructure/Techmed.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.1",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "TechMed.Core >= 1.0.0",
+      "Techmed.Infraestructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -491,7 +523,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Domain\\TechMed.Core.csproj": {
+              "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Domain\\TechMed.Core.csproj"
+            },
+            "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Infraestructure\\Techmed.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Infraestructure\\Techmed.Infraestructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
