@@ -108,6 +108,16 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Techmed.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Techmed.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Techmed.Application.dll": {}
+        }
+      },
       "TechMed.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -475,6 +485,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "Techmed.Application/1.0.0": {
+      "type": "project",
+      "path": "../Techmed.Application/Techmed.Application.csproj",
+      "msbuildProject": "../Techmed.Application/Techmed.Application.csproj"
+    },
     "TechMed.Core/1.0.0": {
       "type": "project",
       "path": "../Techmed.Core/TechMed.Core.csproj",
@@ -490,6 +505,7 @@
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.1",
       "Swashbuckle.AspNetCore >= 6.4.0",
+      "Techmed.Application >= 1.0.0",
       "Techmed.Infraestructure >= 1.0.0"
     ]
   },
@@ -526,6 +542,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Application\\Techmed.Application.csproj": {
+              "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Application\\Techmed.Application.csproj"
+            },
             "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Infraestructure\\Techmed.Infraestructure.csproj": {
               "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\Techmed.Infraestructure\\Techmed.Infraestructure.csproj"
             }

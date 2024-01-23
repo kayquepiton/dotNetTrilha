@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Techmed.Infraestructure\Techmed.Infraestructure.csproj" />
     <ProjectReference Include="..\Techmed.Domain\TechMed.Core.csproj" />
+    <ProjectReference Include="..\Techmed.Application\Techmed.Application.csproj" />
   </ItemGroup>
 
 </Project>
