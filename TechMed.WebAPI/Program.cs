@@ -1,10 +1,7 @@
-using TechMed.Infrastructure.Persistence;
-using TechMed.Infrastructure.Persistence.Interfaces;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<ITechMedContext, TechMedContext>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
