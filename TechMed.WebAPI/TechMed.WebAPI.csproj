@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TechMed.Core\TechMed.Core.csproj" />
+    <ProjectReference Include="..\TechMed.Infraestructure\TechMed.Infraestructure.csproj" />
+    <ProjectReference Include="..\TechMed.Application\TechMed.Application.csproj" />
+  </ItemGroup>
+
 </Project>

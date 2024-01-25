@@ -1,0 +1,15 @@
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/bin/Debug/net7.0/TechMed.Infraestructure.deps.json
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/bin/Debug/net7.0/TechMed.Infraestructure.dll
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/bin/Debug/net7.0/TechMed.Infraestructure.pdb
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/bin/Debug/net7.0/TechMed.Core.dll
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/bin/Debug/net7.0/TechMed.Core.pdb
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/TechMed.Infraestructure.csproj.AssemblyReference.cache
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/TechMed.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/TechMed.Infraestructure.AssemblyInfoInputs.cache
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/TechMed.Infraestructure.AssemblyInfo.cs
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/TechMed.Infraestructure.csproj.CoreCompileInputs.cache
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/TechMed.Infraestructure.csproj.CopyComplete
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/TechMed.Infraestructure.dll
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/refint/TechMed.Infraestructure.dll
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/TechMed.Infraestructure.pdb
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/Debug/net7.0/ref/TechMed.Infraestructure.dll

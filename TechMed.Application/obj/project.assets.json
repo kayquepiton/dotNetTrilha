@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "TechMed.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TechMed.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechMed.Core.dll": {}
+        }
+      },
+      "TechMed.Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TechMed.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TechMed.Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechMed.Infraestructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TechMed.Core/1.0.0": {
+      "type": "project",
+      "path": "../TechMed.Core/TechMed.Core.csproj",
+      "msbuildProject": "../TechMed.Core/TechMed.Core.csproj"
+    },
+    "TechMed.Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../TechMed.Infraestructure/TechMed.Infraestructure.csproj",
+      "msbuildProject": "../TechMed.Infraestructure/TechMed.Infraestructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "TechMed.Core >= 1.0.0",
+      "TechMed.Infraestructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/kayque-almeida-piton/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj": {
+              "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj"
+            },
+            "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/TechMed.Infraestructure.csproj": {
+              "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/TechMed.Infraestructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
