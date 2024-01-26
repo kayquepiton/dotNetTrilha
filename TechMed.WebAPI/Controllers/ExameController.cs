@@ -2,9 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using TechMed.Application.InputModels;
 using TechMed.Application.Services.Interfaces;
 using TechMed.Application.ViewModels;
-using TechMed.Core.Entities;
 using TechMed.Core.Exceptions;
-using TechMed.Infrastructure.Persistence.Interfaces;
+using System;
 
 namespace TechMed.WebAPI.Controllers
 {
@@ -16,14 +15,21 @@ namespace TechMed.WebAPI.Controllers
 
         public ExameController(IExameService exameService)
         {
-            _exameService = exameService;
+            _exameService = exameService ?? throw new ArgumentNullException(nameof(exameService));
         }
 
         [HttpGet("exames")]
         public IActionResult GetExames()
         {
-            var exames = _exameService.GetAllExames();
-            return Ok(exames);
+            try
+            {
+                var exames = _exameService.GetAllExames();
+                return Ok(exames);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
 
         [HttpPost("exames")]
@@ -32,7 +38,7 @@ namespace TechMed.WebAPI.Controllers
             try
             {
                 var exameId = _exameService.CreateExame(exameInputModel);
-                return CreatedAtAction(nameof(GetExames), new { id = exameId }, exameInputModel);
+                return CreatedAtAction(nameof(GetExameById), new { id = exameId }, exameInputModel);
             }
             catch (ExameNotFoundException ex)
             {
@@ -54,6 +60,10 @@ namespace TechMed.WebAPI.Controllers
             try
             {
                 var exame = _exameService.GetExameById(id);
+                if (exame == null)
+                {
+                    return NotFound();
+                }
                 return Ok(exame);
             }
             catch (ExameNotFoundException ex)

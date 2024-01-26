@@ -15,22 +15,46 @@ namespace TechMed.Application.Services
         {
         }
 
-        public int CreateExame(NewExameInputModel exameInputModel)
+        public int CreateExameForAtendimento(int atendimentoId)
         {
-            // Implementação para criar um novo exame
-            throw new NotImplementedException();
+            Exame exame = new Exame
+            {
+                AtendimentoId = atendimentoId
+            };
+
+            _context.Exames.Add(exame);
+            _context.SaveChanges();
+
+            return exame.ExameId;
         }
 
         public ExameViewModel GetExameById(int id)
         {
-            // Implementação para obter um exame pelo ID
-            throw new NotImplementedException();
+            Exame exame = _context.Exames.FirstOrDefault(e => e.ExameId == id);
+
+            if (exame == null)
+            {
+                throw new ExameNotFoundException();
+            }
+
+            return new ExameViewModel
+            {
+                ExameId = exame.ExameId,
+                AtendimentoId = exame.AtendimentoId
+            };
         }
 
         public List<ExameViewModel> GetAllExames()
         {
-            // Implementação para obter todos os exames
-            throw new NotImplementedException();
+            List<Exame> exames = _context.Exames.ToList();
+
+            List<ExameViewModel> exameViewModels = exames.Select(e => new ExameViewModel
+            {
+                ExameId = e.ExameId,
+                AtendimentoId = e.AtendimentoId
+            }).ToList();
+
+            return exameViewModels;
         }
     }
 }

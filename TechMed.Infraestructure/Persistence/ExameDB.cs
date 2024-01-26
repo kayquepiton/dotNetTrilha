@@ -39,12 +39,8 @@ namespace TechMed.Infrastructure.Persistence
 
         public void Update(int id, Exame exame)
         {
-            var exameDB = GetById(id);
-            if (exameDB != null)
-            {
-                //exameDB.Nome = exame.Nome;
-                //exameDB.Descricao = exame.Descricao;
-            }
+            // Não há campos para atualizar na entidade Exame
+            // A lógica de atualização pode ser deixada vazia ou removida, dependendo dos requisitos do sistema
         }
     }
 }

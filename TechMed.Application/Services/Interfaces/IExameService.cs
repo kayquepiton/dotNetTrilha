@@ -1,6 +1,5 @@
-using TechMed.Application.InputModels;
-using TechMed.Application.ViewModels;
 using System.Collections.Generic;
+using TechMed.Application.ViewModels;
 
 namespace TechMed.Application.Services.Interfaces
 {
@@ -8,6 +7,6 @@ namespace TechMed.Application.Services.Interfaces
     {
         List<ExameViewModel> GetAllExames();
         ExameViewModel GetExameById(int id);
-        int CreateExame(NewExameInputModel exameInputModel);
+        int CreateExameForAtendimento(int atendimentoId);
     }
 }
