@@ -3,6 +3,7 @@ using TechMed.Application.InputModels;
 using TechMed.Application.ViewModels;
 using TechMed.Infrastructure.Persistence.Interfaces;
 using TechMed.Core.Entities;
+using TechMed.Core.Exceptions;
 
 namespace TechMed.Application.Services;
 public class MedicoService : IMedicoService
@@ -13,21 +14,32 @@ public class MedicoService : IMedicoService
     _context = context;
   }
 
-public int Create(NewMedicoInputModel medico)
-{
-    if (medico == null)
+  public int Create(NewMedicoInputModel medico)
+  {
+    return _context.MedicosCollection.Create(new Medico
     {
-        throw new ArgumentNullException(nameof(medico));
-    }
+      Nome = medico.Nome
+    });
 
-    var novoMedico = new Medico
-    {
-        Nome = medico.Nome ?? throw new ArgumentNullException(nameof(medico.Nome))
-    };
-
-    return _context.MedicosCollection.Create(novoMedico);
   }
 
+  public int CreateAtendimento(int medicoId, NewAtendimentoInputModel atendimento)
+  {
+    var medico = _context.MedicosCollection.GetById(medicoId);
+    if (medico is null)
+      throw new MedicoNotFoundException();
+
+    var paciente = _context.PacientesCollection.GetById(atendimento.PacienteId);
+    if (paciente is null)
+      throw new PacienteNotFoundException();
+
+    return _context.AtendimentosCollection.Create(new Atendimento
+    {
+      DataHora = atendimento.DataHora,
+      Medico = medico,
+      Paciente = paciente
+    });
+  }
 
   public void Delete(int id)
   {
@@ -36,7 +48,8 @@ public int Create(NewMedicoInputModel medico)
 
   public List<MedicoViewModel> GetAll()
   {
-    var medicos = _context.MedicosCollection.GetAll().Select(m => new MedicoViewModel{
+    var medicos = _context.MedicosCollection.GetAll().Select(m => new MedicoViewModel
+    {
       MedicoId = m.MedicoId,
       Nome = m.Nome
     }).ToList();
@@ -53,11 +66,12 @@ public int Create(NewMedicoInputModel medico)
   public MedicoViewModel? GetById(int id)
   {
     var medico = _context.MedicosCollection.GetById(id);
-    
-    if(medico is null)
+
+    if (medico is null)
       return null;
 
-    var MedicoViewModel = new MedicoViewModel{
+    var MedicoViewModel = new MedicoViewModel
+    {
       MedicoId = medico.MedicoId,
       Nome = medico.Nome
     };
@@ -66,17 +80,9 @@ public int Create(NewMedicoInputModel medico)
 
   public void Update(int id, NewMedicoInputModel medico)
   {
-      if (medico == null)
-      {
-          throw new ArgumentNullException(nameof(medico));
-      }
-
-      var novoMedico = new Medico
-      {
-          Nome = medico.Nome ?? throw new ArgumentNullException(nameof(medico.Nome))
-      };
-
-      _context.MedicosCollection.Update(id, novoMedico);
+    _context.MedicosCollection.Update(id, new Medico
+    {
+      Nome = medico.Nome
+    });
   }
-
 }
