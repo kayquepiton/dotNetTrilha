@@ -42,8 +42,8 @@ namespace TechMed.Infrastructure.Persistence
             var exameDB = GetById(id);
             if (exameDB != null)
             {
-                exameDB.Nome = exame.Nome;
-                exameDB.Descricao = exame.Descricao;
+                //exameDB.Nome = exame.Nome;
+                //exameDB.Descricao = exame.Descricao;
             }
         }
     }
