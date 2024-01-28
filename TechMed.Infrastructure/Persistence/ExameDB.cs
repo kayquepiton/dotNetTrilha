@@ -13,8 +13,8 @@ public class ExameDB : IExameCollection
     {
         if (_exames.Count > 0)
             _id = _exames.Max(m => m.ExameId);
-        exame.ExameId = ++_id;
         _exames.Add(exame);
+        exame.ExameId = ++_id;
         return exame.ExameId;
     }
     public void Update(int id, Exame obj)
