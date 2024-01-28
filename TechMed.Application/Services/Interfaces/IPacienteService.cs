@@ -1,6 +1,7 @@
-namespace TechMed.Application.Services.Interfaces;
 using TechMed.Application.InputModels;
 using TechMed.Application.ViewModels;
+
+namespace TechMed.Application.Services.Interfaces;
 public interface IPacienteService
 {
       public int Create(PacienteInputModel medico);

@@ -303,6 +303,48 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TechMed.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "TechMed.Core": "1.0.0",
+          "TechMed.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TechMed.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechMed.Application.dll": {}
+        }
+      },
+      "TechMed.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TechMed.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechMed.Core.dll": {}
+        }
+      },
+      "TechMed.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "TechMed.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TechMed.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechMed.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -957,13 +999,29 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "TechMed.Application/1.0.0": {
+      "type": "project",
+      "path": "../TechMed.Application/TechMed.Application.csproj",
+      "msbuildProject": "../TechMed.Application/TechMed.Application.csproj"
+    },
+    "TechMed.Core/1.0.0": {
+      "type": "project",
+      "path": "../TechMed.Core/TechMed.Core.csproj",
+      "msbuildProject": "../TechMed.Core/TechMed.Core.csproj"
+    },
+    "TechMed.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TechMed.Infrastructure/TechMed.Infrastructure.csproj",
+      "msbuildProject": "../TechMed.Infrastructure/TechMed.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "TechMed.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -998,7 +1056,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Application\\TechMed.Application.csproj": {
+              "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Application\\TechMed.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

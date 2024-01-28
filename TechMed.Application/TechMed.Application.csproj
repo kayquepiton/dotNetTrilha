@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TechMed.Core\TechMed.Core.csproj" />
-    <ProjectReference Include="..\TechMed.Infraestructure\TechMed.Infrastructure2.csproj" />
     <ProjectReference Include="..\TechMed.Infrastructure\TechMed.Infrastructure.csproj" />
   </ItemGroup>
 

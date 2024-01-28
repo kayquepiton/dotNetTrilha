@@ -34,3 +34,9 @@ C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\obj\Debug\net7.0\refint\TechMed.WebAP
 C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\obj\Debug\net7.0\TechMed.WebAPI.pdb
 C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\obj\Debug\net7.0\TechMed.WebAPI.genruntimeconfig.cache
 C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\obj\Debug\net7.0\ref\TechMed.WebAPI.dll
+C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\bin\Debug\net7.0\TechMed.Application.dll
+C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\bin\Debug\net7.0\TechMed.Core.dll
+C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\bin\Debug\net7.0\TechMed.Infrastructure.dll
+C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\bin\Debug\net7.0\TechMed.Application.pdb
+C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\bin\Debug\net7.0\TechMed.Core.pdb
+C:\Users\kayqu\dotNetTrilha\TechMed.WebAPI\bin\Debug\net7.0\TechMed.Infrastructure.pdb
