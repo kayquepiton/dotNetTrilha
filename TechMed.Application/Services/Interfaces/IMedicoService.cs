@@ -3,11 +3,10 @@ using TechMed.Application.InputModels;
 using TechMed.Application.ViewModels;
 public interface IMedicoService
 {
+      public int Create(MedicoInputModel medico);
+      public int CreateAtendimento(int medicoId,AtendimentoInputModel atendimento);
+      public void Update(int id, MedicoInputModel medico);
+      public void Delete(int id);
       public List<MedicoViewModel> GetAll();
       public MedicoViewModel? GetById(int id);
-      public MedicoViewModel? GetByCrm(string crm);
-      public int Create(NewMedicoInputModel medico);
-      public int CreateAtendimento(int medicoId,NewAtendimentoInputModel atendimento);
-      public void Update(int id, NewMedicoInputModel medico);
-      public void Delete(int id);
 }

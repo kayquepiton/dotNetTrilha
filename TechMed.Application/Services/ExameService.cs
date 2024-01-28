@@ -1,60 +1,37 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using TechMed.Application.InputModels;
 using TechMed.Application.Services.Interfaces;
 using TechMed.Application.ViewModels;
-using TechMed.Core.Exceptions;
+using TechMed.Core.Entities;
 using TechMed.Infrastructure.Persistence.Interfaces;
 
-namespace TechMed.Application.Services
+namespace TechMed.Application.Services;
+public class ExameService : BaseService, IExameService
 {
-    public class ExameService : BaseService, IExameService
-    {
-        public ExameService(ITechMedContext context) : base(context)
-        {
-        }
+   private readonly IAtendimentoService _atendimentoService;
+   public ExameService(ITechMedContext context, IAtendimentoService atendimentoService) : base(context)
+   {
+      _atendimentoService = atendimentoService;
+   }
 
-        public int CreateExameForAtendimento(int atendimentoId)
-        {
-            Exame exame = new Exame
-            {
-                AtendimentoId = atendimentoId
-            };
+   public int Create(ExameInputModel exame)
+   {
+      return _context.ExameCollection.Create(new Exame
+      {
+         Nome = exame.Nome,
+         DataHora = exame.DataHora,
+         AtendimentoId = exame.AtendimentoId
+      });
+   }
 
-            _context.Exames.Add(exame);
-            _context.SaveChanges();
+   public List<ExameViewModel> GetAll()
+   {
 
-            return exame.ExameId;
-        }
-
-        public ExameViewModel GetExameById(int id)
-        {
-            Exame exame = _context.Exames.FirstOrDefault(e => e.ExameId == id);
-
-            if (exame == null)
-            {
-                throw new ExameNotFoundException();
-            }
-
-            return new ExameViewModel
-            {
-                ExameId = exame.ExameId,
-                AtendimentoId = exame.AtendimentoId
-            };
-        }
-
-        public List<ExameViewModel> GetAllExames()
-        {
-            List<Exame> exames = _context.Exames.ToList();
-
-            List<ExameViewModel> exameViewModels = exames.Select(e => new ExameViewModel
-            {
-                ExameId = e.ExameId,
-                AtendimentoId = e.AtendimentoId
-            }).ToList();
-
-            return exameViewModels;
-        }
-    }
+      return _context.ExameCollection.GetAll().Select(m => new ExameViewModel
+      {
+         ExameId = m.ExameId,
+         Nome = m.Nome,
+         DataHora = m.DataHora,
+         Atendimento = _atendimentoService.GetById(m.AtendimentoId)
+      }).ToList();
+   }
 }

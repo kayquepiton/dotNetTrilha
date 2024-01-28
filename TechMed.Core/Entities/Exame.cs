@@ -1,13 +1,10 @@
-namespace TechMed.Core.Entities
-{
-    public class Exame : BaseEntity
-    {
-        public int ExameId { get; set; }
-        //public string? Nome { get; set; }
-        //public string? Descricao { get; set; }
+﻿namespace TechMed.Core.Entities;
 
-        // ID do atendimento associado a este exame
-        public int AtendimentoId { get; set; }
-        public Atendimento? Atendimento { get; set; }
-    }
+public class Exame : BaseEntity
+{
+    public int ExameId { get; set; }
+    public string? Nome { get; set; }
+    public DateTimeOffset DataHora { get; set; }
+    public int AtendimentoId { get; set; }
+    public Atendimento? Atendimento { get; set; }
 }

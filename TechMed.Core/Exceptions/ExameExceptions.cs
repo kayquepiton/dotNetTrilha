@@ -1,20 +1,11 @@
-using System;
+﻿namespace TechMed.Core.Exceptions;
 
-namespace TechMed.Core.Exceptions
+public class ExameAlreadyExistsException : Exception
 {
-    public class ExameAlreadyExistsException : Exception
-    {
-        public ExameAlreadyExistsException() :
-            base("Já existe um exame com esses dados.")
-        {
-        }
-    }
+    public ExameAlreadyExistsException() : base("Exame já cadastrado.") { }
+}
 
-    public class ExameNotFoundException : Exception
-    {
-        public ExameNotFoundException() :
-            base("Exame não encontrado.")
-        {
-        }
-    }
+public class ExameNotFoundException : Exception
+{
+    public ExameNotFoundException() : base("Exame não encontrado.") { }
 }

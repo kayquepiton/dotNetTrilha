@@ -1,9 +1,9 @@
 using TechMed.Application.Services.Interfaces;
 using TechMed.Application.InputModels;
 using TechMed.Application.ViewModels;
-using TechMed.Infrastructure.Persistence.Interfaces;
 using TechMed.Core.Entities;
 using TechMed.Core.Exceptions;
+using TechMed.Infrastructure.Persistence.Interfaces;
 
 namespace TechMed.Application.Services;
 public class MedicoService : IMedicoService
@@ -14,26 +14,26 @@ public class MedicoService : IMedicoService
     _context = context;
   }
 
-  public int Create(NewMedicoInputModel medico)
+  public int Create(MedicoInputModel medico)
   {
-    return _context.MedicosCollection.Create(new Medico
+    return _context.MedicoCollection.Create(new Medico
     {
       Nome = medico.Nome
     });
 
   }
 
-  public int CreateAtendimento(int medicoId, NewAtendimentoInputModel atendimento)
+  public int CreateAtendimento(int medicoId, AtendimentoInputModel atendimento)
   {
-    var medico = _context.MedicosCollection.GetById(medicoId);
+    var medico = _context.MedicoCollection.GetById(medicoId);
     if (medico is null)
       throw new MedicoNotFoundException();
 
-    var paciente = _context.PacientesCollection.GetById(atendimento.PacienteId);
+    var paciente = _context.PacienteCollection.GetById(atendimento.PacienteId);
     if (paciente is null)
       throw new PacienteNotFoundException();
 
-    return _context.AtendimentosCollection.Create(new Atendimento
+    return _context.AtendimentoCollection.Create(new Atendimento
     {
       DataHora = atendimento.DataHora,
       Medico = medico,
@@ -41,14 +41,22 @@ public class MedicoService : IMedicoService
     });
   }
 
+  public void Update(int id, MedicoInputModel medico)
+  {
+    _context.MedicoCollection.Update(id, new Medico
+    {
+      Nome = medico.Nome
+    });
+  }
+
   public void Delete(int id)
   {
-    _context.MedicosCollection.Delete(id);
+    _context.MedicoCollection.Delete(id);
   }
 
   public List<MedicoViewModel> GetAll()
   {
-    var medicos = _context.MedicosCollection.GetAll().Select(m => new MedicoViewModel
+    var medicos = _context.MedicoCollection.GetAll().Select(m => new MedicoViewModel
     {
       MedicoId = m.MedicoId,
       Nome = m.Nome
@@ -58,14 +66,9 @@ public class MedicoService : IMedicoService
 
   }
 
-  public MedicoViewModel? GetByCrm(string crm)
-  {
-    throw new NotImplementedException();
-  }
-
   public MedicoViewModel? GetById(int id)
   {
-    var medico = _context.MedicosCollection.GetById(id);
+    var medico = _context.MedicoCollection.GetById(id);
 
     if (medico is null)
       return null;
@@ -78,11 +81,4 @@ public class MedicoService : IMedicoService
     return MedicoViewModel;
   }
 
-  public void Update(int id, NewMedicoInputModel medico)
-  {
-    _context.MedicosCollection.Update(id, new Medico
-    {
-      Nome = medico.Nome
-    });
-  }
 }

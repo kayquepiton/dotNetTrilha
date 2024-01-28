@@ -1,5 +1,6 @@
 using TechMed.Application.Services.Interfaces;
 using TechMed.Infrastructure.Persistence.Interfaces;
+using TechMed.Infrastructure.Persistence.Interfaces;
 
 namespace TechMed.Application.Services;
 public abstract class BaseService

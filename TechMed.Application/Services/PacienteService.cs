@@ -3,6 +3,7 @@ using TechMed.Application.InputModels;
 using TechMed.Application.ViewModels;
 using TechMed.Infrastructure.Persistence.Interfaces;
 using TechMed.Core.Entities;
+using TechMed.Infrastructure.Persistence.Interfaces;
 
 namespace TechMed.Application.Services;
 public class PacienteService : IPacienteService
@@ -13,21 +14,28 @@ public class PacienteService : IPacienteService
     _context = context;
   }
 
-    public int Create(NewPacienteInputModel medico)
+    public int Create(PacienteInputModel medico)
     {
-        return _context.PacientesCollection.Create(new Paciente{
+        return _context.PacienteCollection.Create(new Paciente{
+        Nome = medico.Nome
+        });
+    }
+
+    public void Update(int id, PacienteInputModel medico)
+    {
+        _context.PacienteCollection.Update(id, new Paciente{
         Nome = medico.Nome
         });
     }
 
     public void Delete(int id)
     {
-        _context.PacientesCollection.Delete(id);
+        _context.PacienteCollection.Delete(id);
     }
 
     public List<PacienteViewModel> GetAll()
     {
-        var pacientes = _context.PacientesCollection.GetAll().Select(m => new PacienteViewModel{
+        var pacientes = _context.PacienteCollection.GetAll().Select(m => new PacienteViewModel{
         PacienteId = m.PacienteId,
         Nome = m.Nome
         }).ToList();
@@ -37,7 +45,7 @@ public class PacienteService : IPacienteService
 
     public PacienteViewModel? GetById(int id)
     {
-        var paciente = _context.PacientesCollection.GetById(id);
+        var paciente = _context.PacienteCollection.GetById(id);
         
         if(paciente is null)
         return null;
@@ -49,10 +57,4 @@ public class PacienteService : IPacienteService
         return PacienteViewModel;
     }
 
-    public void Update(int id, NewPacienteInputModel medico)
-    {
-        _context.PacientesCollection.Update(id, new Paciente{
-        Nome = medico.Nome
-        });
-    }
 }

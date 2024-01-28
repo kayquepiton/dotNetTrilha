@@ -1,16 +1,11 @@
-namespace TechMed.Core.Exceptions;
+﻿namespace TechMed.Core.Exceptions;
+
 public class MedicoAlreadyExistsException : Exception
 {
-   public MedicoAlreadyExistsException() :
-      base("Já existe um médico com esses dados.")
-   {
-   }
+    public MedicoAlreadyExistsException() : base("Medico já cadastrado.") { }
 }
 
 public class MedicoNotFoundException : Exception
 {
-   public MedicoNotFoundException() :
-      base("Médico não encontrado.")
-   {
-   }
-}
+    public MedicoNotFoundException() : base("Medico não encontrado.") { }
+}   

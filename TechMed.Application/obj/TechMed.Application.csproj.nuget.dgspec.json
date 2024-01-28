@@ -1,36 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/TechMed.Application.csproj": {}
+    "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Application\\TechMed.Application.csproj": {}
   },
   "projects": {
-    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/TechMed.Application.csproj": {
+    "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Application\\TechMed.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/TechMed.Application.csproj",
+        "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Application\\TechMed.Application.csproj",
         "projectName": "TechMed.Application",
-        "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/TechMed.Application.csproj",
-        "packagesPath": "/home/kayque-almeida-piton/.nuget/packages/",
-        "outputPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/obj/",
+        "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Application\\TechMed.Application.csproj",
+        "packagesPath": "C:\\Users\\kayqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/kayque-almeida-piton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kayqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj": {
-                "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj"
+              "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Core\\TechMed.Core.csproj": {
+                "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Core\\TechMed.Core.csproj"
               },
-              "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/TechMed.Infraestructure.csproj": {
-                "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/TechMed.Infraestructure.csproj"
+              "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj"
               }
             }
           }
@@ -42,8 +49,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -60,31 +67,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj": {
+    "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Core\\TechMed.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj",
+        "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Core\\TechMed.Core.csproj",
         "projectName": "TechMed.Core",
-        "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj",
-        "packagesPath": "/home/kayque-almeida-piton/.nuget/packages/",
-        "outputPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/obj/",
+        "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Core\\TechMed.Core.csproj",
+        "packagesPath": "C:\\Users\\kayqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/kayque-almeida-piton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kayqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -95,8 +109,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -113,34 +127,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/TechMed.Infraestructure.csproj": {
+    "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/TechMed.Infraestructure.csproj",
-        "projectName": "TechMed.Infraestructure",
-        "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/TechMed.Infraestructure.csproj",
-        "packagesPath": "/home/kayque-almeida-piton/.nuget/packages/",
-        "outputPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infraestructure/obj/",
+        "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj",
+        "projectName": "TechMed.Infrastructure",
+        "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kayqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/kayque-almeida-piton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kayqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj": {
-                "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj"
+              "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Core\\TechMed.Core.csproj": {
+                "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Core\\TechMed.Core.csproj"
               }
             }
           }
@@ -152,8 +173,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -170,7 +191,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

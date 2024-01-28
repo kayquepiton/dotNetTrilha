@@ -1,20 +1,11 @@
-using System;
+﻿namespace TechMed.Core.Exceptions;
 
-namespace TechMed.Core.Exceptions
+public class AtendimentoAlreadyExistsException : Exception
 {
-    public class AtendimentoAlreadyExistsException : Exception
-    {
-        public AtendimentoAlreadyExistsException() :
-            base("Já existe um atendimento com esses dados.")
-        {
-        }
-    }
+    public AtendimentoAlreadyExistsException() : base("Atendimento já cadastrado.") { }
+}
 
-    public class AtendimentoNotFoundException : Exception
-    {
-        public AtendimentoNotFoundException() :
-            base("Atendimento não encontrado.")
-        {
-        }
-    }
+public class AtendimentoNotFoundException : Exception
+{
+    public AtendimentoNotFoundException() : base("Atendimento não encontrado.") { }
 }

@@ -1,12 +1,9 @@
-using System.Collections.Generic;
+using TechMed.Application.InputModels;
 using TechMed.Application.ViewModels;
 
-namespace TechMed.Application.Services.Interfaces
+namespace TechMed.Application.Services.Interfaces;
+public interface IExameService
 {
-    public interface IExameService
-    {
-        List<ExameViewModel> GetAllExames();
-        ExameViewModel GetExameById(int id);
-        int CreateExameForAtendimento(int atendimentoId);
-    }
+   public int Create(ExameInputModel exame);
+    public List<ExameViewModel> GetAll();
 }

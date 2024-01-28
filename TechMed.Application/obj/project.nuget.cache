@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yv14EU8Br5u+Z/RwjZuAudQ0JtPJufZKlJHvjdcKhQwp/gOw/QyYow2zA25LLuKwBI3zyplbINxCm3ZzojwyfA==",
+  "dgSpecHash": "d63MLZCkp7wXtriT4fYWDZVXMV5DDgQ4VFlC+HBanNiK68YqXDUqrspOGIg+bfFPq+xVBp0jTK3hD8xA/Zyayg==",
   "success": true,
-  "projectFilePath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/TechMed.Application.csproj",
+  "projectFilePath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed.Application\\TechMed.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
