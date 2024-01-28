@@ -9,6 +9,11 @@ public class PacienteDB : IPacienteCollection
     private readonly List<Paciente> _pacientes = new List<Paciente>();
     private int _id = 0;
 
+    public PacienteDB(){
+      _pacientes.Add(new Paciente{PacienteId = 1, Nome = "Emily Rose"});
+      _pacientes.Add(new Paciente{PacienteId = 2, Nome = "Vovozinha"});
+   }
+
     public int Create(Paciente paciente)
     {
         if (_pacientes.Count > 0)

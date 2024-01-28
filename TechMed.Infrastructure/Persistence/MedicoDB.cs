@@ -9,6 +9,11 @@ public class MedicoDB : IMedicoCollection
     private readonly List<Medico> _medicos = new List<Medico>();
     private int _id = 0;
 
+    public MedicoDB(){
+      _medicos.Add(new Medico{MedicoId = 1, Nome = "Dr. House"});
+      _medicos.Add(new Medico{MedicoId = 2, Nome = "Dr. Dexter"});
+    }
+
     public int Create(Medico medico)
     {
         if (_medicos.Count > 0)
