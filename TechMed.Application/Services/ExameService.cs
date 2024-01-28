@@ -25,13 +25,13 @@ public class ExameService : BaseService, IExameService
 
    public List<ExameViewModel> GetAll()
    {
-
-      return _context.ExameCollection.GetAll().Select(m => new ExameViewModel
-      {
-         ExameId = m.ExameId,
-         Nome = m.Nome,
-         DataHora = m.DataHora,
-         Atendimento = _atendimentoService.GetById(m.AtendimentoId)
-      }).ToList();
+     return _context.ExameCollection.GetAll().Select(m => new ExameViewModel
+     {
+       ExameId = m.ExameId,
+       Nome = !string.IsNullOrEmpty(m.Nome) ? m.Nome : "DefaultNome", // Use m.Nome if not null or empty, otherwise use "DefaultNome"
+       DataHora = m.DataHora,
+       Atendimento = _atendimentoService.GetById(m.AtendimentoId)
+       ?? new AtendimentoViewModel() // Handle the case where Atendimento is null
+     }).ToList();
    }
 }

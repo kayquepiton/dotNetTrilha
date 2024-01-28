@@ -7,11 +7,11 @@ namespace TechMed.WebAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class MedcioController : ControllerBase
+public class MedicoController : ControllerBase
 {
     private readonly IMedicoService _medicoService;
     public List<MedicoViewModel> Pacientes => _medicoService.GetAll();
-    public MedcioController(IMedicoService service) => _medicoService = service;
+    public MedicoController(IMedicoService service) => _medicoService = service;
 
     [HttpGet("medicos")]
     public IActionResult Get(){

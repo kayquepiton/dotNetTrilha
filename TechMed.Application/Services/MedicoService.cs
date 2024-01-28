@@ -16,11 +16,13 @@ public class MedicoService : IMedicoService
 
   public int Create(MedicoInputModel medico)
   {
-    return _context.MedicoCollection.Create(new Medico
-    {
-      Nome = medico.Nome
-    });
-
+    if (medico.Nome != null){
+      return _context.MedicoCollection.Create(new Medico
+      {
+        Nome = medico.Nome
+      });
+    }
+    return 0;
   }
 
   public int CreateAtendimento(int medicoId, AtendimentoInputModel atendimento)
@@ -43,10 +45,14 @@ public class MedicoService : IMedicoService
 
   public void Update(int id, MedicoInputModel medico)
   {
-    _context.MedicoCollection.Update(id, new Medico
+    if (medico.Nome != null)
     {
-      Nome = medico.Nome
-    });
+      _context.MedicoCollection.Update(id, new Medico
+      {
+        Nome = medico.Nome
+      });
+    }
+    // Handle the case where medico.Nome is null
   }
 
   public void Delete(int id)

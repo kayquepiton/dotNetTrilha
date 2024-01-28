@@ -7,7 +7,7 @@ namespace TechMed.Infrastructure.Persistence;
 public class PacienteDB : IPacienteCollection
 {
     private readonly List<Paciente> _pacientes = new List<Paciente>();
-    private int _id = 1;
+    private int _id = 0;
 
     public int Create(Paciente paciente)
     {

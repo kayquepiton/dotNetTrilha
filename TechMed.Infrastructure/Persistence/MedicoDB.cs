@@ -7,7 +7,7 @@ namespace TechMed.Infrastructure.Persistence;
 public class MedicoDB : IMedicoCollection
 {
     private readonly List<Medico> _medicos = new List<Medico>();
-    private int _id = 1;
+    private int _id = 0;
 
     public int Create(Medico medico)
     {

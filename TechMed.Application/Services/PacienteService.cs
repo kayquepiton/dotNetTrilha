@@ -3,7 +3,6 @@ using TechMed.Application.InputModels;
 using TechMed.Application.ViewModels;
 using TechMed.Infrastructure.Persistence.Interfaces;
 using TechMed.Core.Entities;
-using TechMed.Infrastructure.Persistence.Interfaces;
 
 namespace TechMed.Application.Services;
 public class PacienteService : IPacienteService

@@ -7,7 +7,7 @@ namespace TechMed.Infrastructure.Persistence;
 public class ExameDB : IExameCollection
 {
     private readonly List<Exame> _exames = new List<Exame>();
-    private int _id = 1;
+    private int _id = 0;
 
     public int Create(Exame exame)
     {

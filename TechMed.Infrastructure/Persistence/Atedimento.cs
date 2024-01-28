@@ -7,7 +7,7 @@ namespace TechMed.Infrastructure.Persistence;
 public class AtendimentoDB : IAtendimentoCollection
 {
     private readonly List<Atendimento> _atendimentos = new List<Atendimento>();
-    private int _id = 1;
+    private int _id = 0;
 
     public int Create(Atendimento atendimento)
     {
