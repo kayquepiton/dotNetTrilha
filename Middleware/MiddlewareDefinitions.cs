@@ -49,7 +49,7 @@ public class ChassiMiddleware : IMiddleware
 {
     public async Task<string> Invoke()
     {
-        return "Chassi";
+        return "Chassi adicionado!\n";
     }
 }
 
@@ -58,7 +58,7 @@ public class MotorMiddleware : IMiddleware
 {
     public async Task<string> Invoke()
     {
-        return "Motor";
+        return "Motor adicionado!\n";
     }
 }
 
@@ -67,7 +67,7 @@ public class PortasMiddleware : IMiddleware
 {
     public async Task<string> Invoke()
     {
-        return "Portas";
+        return "Portas adicionadas!\n";
     }
 }
 
@@ -76,7 +76,7 @@ public class PinturaMiddleware : IMiddleware
 {
     public async Task<string> Invoke()
     {
-        return "Pintura";
+        return "Pintura adicionada!\n";
     }
 }
 
@@ -85,7 +85,7 @@ public class InternoMiddleware : IMiddleware
 {
     public async Task<string> Invoke()
     {
-        return "Interno";
+        return "Interno adicionado!\n";
     }
 }
 
