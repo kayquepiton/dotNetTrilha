@@ -1,15 +1,37 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using System;
+using System.Threading.Tasks;
 
-var builder = WebApplication.CreateBuilder(args);
+namespace ConsoleMiddleware;
+class Program{
+    static async Task Main(string[] args){
+        var middlewarePipeline = new MiddlewarePipeline();
 
-var app = builder.Build();
+        // Adicionando middlewares
+        middlewarePipeline.AddMiddleware(new ChassiMiddleware());
+        middlewarePipeline.AddMiddleware(new MotorMiddleware());
+        middlewarePipeline.AddMiddleware(new PortasMiddleware());
+        middlewarePipeline.AddMiddleware(new PinturaMiddleware());
+        middlewarePipeline.AddMiddleware(new InternoMiddleware());
 
-app.UseMiddleware<MiddlewareHoraIP>();
-//app.UseMiddleware<MiddlewareRequestDurationMilliseconds>();
-app.UseMiddleware<MiddlewareRequestDurationMicroseconds>(); 
+        // Executa o pipeline de middlewares e obtém a string resultante
+        string result = await middlewarePipeline.ExecuteAsync();
 
-var exceptionHandler = new MiddlewareExceptionHandling();
-exceptionHandler.Configure(app);
+        // Exibe o resultado
+        Console.WriteLine(result);
 
-app.Run();
+        var builder = WebApplication.CreateBuilder(args);
+
+        var app = builder.Build();
+
+        app.UseMiddleware<MiddlewareHoraIP>();
+        //app.UseMiddleware<MiddlewareRequestDurationMilliseconds>();
+        app.UseMiddleware<MiddlewareRequestDurationMicroseconds>(); 
+
+        var exceptionHandler = new MiddlewareExceptionHandling();
+        exceptionHandler.Configure(app);
+
+        app.Run();
+    }
+}
