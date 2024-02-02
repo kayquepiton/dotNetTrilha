@@ -1,23 +1,15 @@
-using System;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
-namespace ConsoleMiddleware;
-class Program{
-    static async Task Main(string[] args){
-        var middlewarePipeline = new MiddlewarePipeline();
+var builder = WebApplication.CreateBuilder(args);
 
-        // Adicionando middlewares
-        middlewarePipeline.AddMiddleware(new ChassiMiddleware());
-        middlewarePipeline.AddMiddleware(new MotorMiddleware());
-        middlewarePipeline.AddMiddleware(new PortasMiddleware());
-        middlewarePipeline.AddMiddleware(new PinturaMiddleware());
-        middlewarePipeline.AddMiddleware(new InternoMiddleware());
+var app = builder.Build();
 
-        // Executa o pipeline de middlewares e obtém a string resultante
-        string result = await middlewarePipeline.ExecuteAsync();
+app.UseMiddleware<MiddlewareHoraIP>();
+//app.UseMiddleware<MiddlewareRequestDurationMilliseconds>();
+app.UseMiddleware<MiddlewareRequestDurationMicroseconds>(); 
 
-        // Exibe o resultado
-        Console.WriteLine(result);
-    }
-}
+var exceptionHandler = new MiddlewareExceptionHandling();
+exceptionHandler.Configure(app);
 
+app.Run();
