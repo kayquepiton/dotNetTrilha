@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "M4mbSrMm4ehpq1Znwmm9i9pizLaJnCAagSj0YMPwC4BECEFlYZv59kc/GbNLCsAxLBzfMIFe5ZobrC5WKjZi4Q==",
+  "success": true,
+  "projectFilePath": "/home/kayque-almeida-piton/dotNetTrilha/WebAPI_SimpleAuthExample/WebAPI_SimpleAuthExample.csproj",
+  "expectedPackageFiles": [
+    "/home/kayque-almeida-piton/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

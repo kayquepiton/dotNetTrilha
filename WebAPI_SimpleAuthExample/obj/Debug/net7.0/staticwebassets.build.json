@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tcreHCL3cS0NzzdLRezZerJQX0N3JqxcDWrP3ljkP0E=",
+  "Source": "WebAPI_SimpleAuthExample",
+  "BasePath": "_content/WebAPI_SimpleAuthExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
