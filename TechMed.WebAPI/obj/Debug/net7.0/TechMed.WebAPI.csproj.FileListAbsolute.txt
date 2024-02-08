@@ -91,3 +91,6 @@
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.WebAPI/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.WebAPI/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.WebAPI/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.WebAPI/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.WebAPI/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.WebAPI/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

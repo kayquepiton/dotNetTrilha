@@ -18,7 +18,7 @@ public class LoginController : ControllerBase
 
     public IActionResult Login([FromBody] LoginInputModel user){
         var userViewModel = _loginService.Authenticate(user);
-        if(userViewModel == null)
+        if(userViewModel != null)
         {
             return Ok(userViewModel);
         }

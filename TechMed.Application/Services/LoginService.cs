@@ -17,7 +17,7 @@ public class LoginService : ILoginService
         var passHash = _authService.ComputeSha256Hash(login.Password);
         if(login.Username == "admin" && passHash == _authService.ComputeSha256Hash("admin"))
         {
-            var token = _authService.GenerateJwtToken("admin", "admin");
+            var token = _authService.GenerateJwtToken(login.Username, "admin");
             return new LoginViewModel
             {
                 Username = login.Username,

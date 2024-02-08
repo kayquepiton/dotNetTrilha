@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4+uVMiXdqagBQjUXNiqn002ap4AS7D2pLllkTQlayDHMvYqRCKD9XG2nT+VvquZPcUhl+ctMeN+PzNkGb9hKFw==",
+  "dgSpecHash": "ByHwC5xcUIbGhbSQPod2+nY7DOPA0LM2v7ux4N5+7aIO5VNQUFtWfl0MQlsN8X0FIN0MU3hBfqPF2irpeVJAyw==",
   "success": true,
   "projectFilePath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.WebAPI/TechMed.WebAPI.csproj",
   "expectedPackageFiles": [
     "/home/kayque-almeida-piton/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.15/microsoft.aspnetcore.authentication.jwtbearer.7.0.15.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.aspnetcore.http/2.2.2/microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
@@ -30,6 +31,8 @@
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.identitymodel.abstractions/7.3.1/microsoft.identitymodel.abstractions.7.3.1.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.3.1/microsoft.identitymodel.jsonwebtokens.7.3.1.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.identitymodel.logging/7.3.1/microsoft.identitymodel.logging.7.3.1.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/microsoft.identitymodel.protocols/6.35.0/microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.35.0/microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.identitymodel.tokens/7.3.1/microsoft.identitymodel.tokens.7.3.1.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
