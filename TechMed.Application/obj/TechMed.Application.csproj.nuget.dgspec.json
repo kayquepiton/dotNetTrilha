@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Application/TechMed.Application.csproj": {}
+    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/TechMed.Application.csproj": {}
   },
   "projects": {
-    "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Application/TechMed.Application.csproj": {
+    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/TechMed.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Application/TechMed.Application.csproj",
+        "projectUniqueName": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/TechMed.Application.csproj",
         "projectName": "TechMed.Application",
-        "projectPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Application/TechMed.Application.csproj",
+        "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/TechMed.Application.csproj",
         "packagesPath": "/home/kayque-almeida-piton/.nuget/packages/",
-        "outputPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Application/obj/",
+        "outputPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kayque-almeida-piton/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj": {
-                "projectPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj"
+              "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj": {
+                "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj"
               },
-              "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/TechMed.Infrastructure.csproj": {
-                "projectPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/TechMed.Infrastructure.csproj"
+              "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/TechMed.Infrastructure.csproj": {
+                "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/TechMed.Infrastructure.csproj"
               }
             }
           }
@@ -44,6 +44,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,14 +70,14 @@
         }
       }
     },
-    "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj": {
+    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj",
+        "projectUniqueName": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj",
         "projectName": "TechMed.Core",
-        "projectPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj",
+        "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj",
         "packagesPath": "/home/kayque-almeida-piton/.nuget/packages/",
-        "outputPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/obj/",
+        "outputPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kayque-almeida-piton/.nuget/NuGet/NuGet.Config"
@@ -117,14 +123,14 @@
         }
       }
     },
-    "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/TechMed.Infrastructure.csproj": {
+    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/TechMed.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/TechMed.Infrastructure.csproj",
+        "projectUniqueName": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/TechMed.Infrastructure.csproj",
         "projectName": "TechMed.Infrastructure",
-        "projectPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/TechMed.Infrastructure.csproj",
+        "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/TechMed.Infrastructure.csproj",
         "packagesPath": "/home/kayque-almeida-piton/.nuget/packages/",
-        "outputPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/",
+        "outputPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kayque-almeida-piton/.nuget/NuGet/NuGet.Config"
@@ -139,8 +145,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj": {
-                "projectPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj"
+              "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj": {
+                "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj"
               }
             }
           }
@@ -162,6 +168,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.3.1, )"
             }
           },
           "imports": [

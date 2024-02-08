@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj": {}
+    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj": {}
   },
   "projects": {
-    "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj": {
+    "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj",
+        "projectUniqueName": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj",
         "projectName": "TechMed.Core",
-        "projectPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/TechMed.Core.csproj",
+        "projectPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/TechMed.Core.csproj",
         "packagesPath": "/home/kayque-almeida-piton/.nuget/packages/",
-        "outputPath": "/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Core/obj/",
+        "outputPath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kayque-almeida-piton/.nuget/NuGet/NuGet.Config"
