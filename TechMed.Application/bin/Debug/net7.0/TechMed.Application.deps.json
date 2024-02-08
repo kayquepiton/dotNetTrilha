@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TechMed.Application/1.0.0": {
+        "dependencies": {
+          "TechMed.Core": "1.0.0",
+          "TechMed.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "TechMed.Application.dll": {}
+        }
+      },
+      "TechMed.Core/1.0.0": {
+        "runtime": {
+          "TechMed.Core.dll": {}
+        }
+      },
+      "TechMed.Infrastructure/1.0.0": {
+        "dependencies": {
+          "TechMed.Core": "1.0.0"
+        },
+        "runtime": {
+          "TechMed.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TechMed.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TechMed.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TechMed.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

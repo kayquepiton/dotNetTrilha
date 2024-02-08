@@ -1,0 +1,15 @@
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Infrastructure.deps.json
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Infrastructure.dll
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Infrastructure.pdb
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Core.dll
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Core.pdb
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.csproj.AssemblyReference.cache
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.AssemblyInfoInputs.cache
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.AssemblyInfo.cs
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.csproj.CoreCompileInputs.cache
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.csproj.CopyComplete
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.dll
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/refint/TechMed.Infrastructure.dll
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.pdb
+/home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/ref/TechMed.Infrastructure.dll
