@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ByHwC5xcUIbGhbSQPod2+nY7DOPA0LM2v7ux4N5+7aIO5VNQUFtWfl0MQlsN8X0FIN0MU3hBfqPF2irpeVJAyw==",
+  "dgSpecHash": "Wvlaw2fo0Hs+QAakDOJ2I8fSVC/CJlNNb3HEAdOPLNkHdoTQxVwMRZVoXgmxWOVdgKCDLTGDcaf5+Ioo+h7PAA==",
   "success": true,
   "projectFilePath": "/home/kayque-almeida-piton/dotNetTrilha/TechMed.WebAPI/TechMed.WebAPI.csproj",
   "expectedPackageFiles": [
+    "/home/kayque-almeida-piton/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/home/kayque-almeida-piton/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.15/microsoft.aspnetcore.authentication.jwtbearer.7.0.15.nupkg.sha512",
     "/home/kayque-almeida-piton/.nuget/packages/microsoft.aspnetcore.http/2.2.2/microsoft.aspnetcore.http.2.2.2.nupkg.sha512",

@@ -14,6 +14,7 @@
 /home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.pdb
 /home/kayque-almeida-piton/tic18_dotnet/ExemplosAula/Modulo3/TechMed.Infrastructure/obj/Debug/net7.0/ref/TechMed.Infrastructure.dll
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Infrastructure.deps.json
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Infrastructure.runtimeconfig.json
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Infrastructure.dll
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Infrastructure.pdb
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/bin/Debug/net7.0/TechMed.Core.dll
@@ -27,4 +28,5 @@
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.dll
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/obj/Debug/net7.0/refint/TechMed.Infrastructure.dll
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.pdb
+/home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/obj/Debug/net7.0/TechMed.Infrastructure.genruntimeconfig.cache
 /home/kayque-almeida-piton/dotNetTrilha/TechMed.Infrastructure/obj/Debug/net7.0/ref/TechMed.Infrastructure.dll

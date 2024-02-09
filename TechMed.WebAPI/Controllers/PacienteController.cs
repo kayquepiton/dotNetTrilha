@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using TechMed.Application.Services.Interfaces;
 using TechMed.Application.ViewModels;
 using TechMed.Application.InputModels;
+using TechMed.Application.Services;
 
 namespace TechMed.WebAPI.Controllers;
 
@@ -34,11 +35,17 @@ public class PacienteController : ControllerBase
    [HttpPost("paciente")]
    public IActionResult Post([FromBody] NewPacienteInputModel paciente)
    {
-      _pacienteService.Create(paciente);
+      if(!ModelState.IsValid)
+      {
+         var erros = ModelState.Values
+            .SelectMany(x => x.Erros)
+            .Select(x => x.ErrorMessage)
+            .ToList();
 
-      //service.Create(paciente);
-      return CreatedAtAction(nameof(Get), paciente);
- 
+         return BadRequest();
+      }
+      
+      pacienteService.Create(errors);
    }
 
    [HttpPut("paciente/{id}")]
