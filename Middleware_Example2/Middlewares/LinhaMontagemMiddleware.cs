@@ -72,15 +72,14 @@ public class AddInternoMiddleware
     public async Task Invoke(HttpContext context, LinhaDeMontagemDescricao descricao)
     {
         descricao.AdicionarEtapa("Acabamento Interno", $"Acabamento Interno adicionado na cor {descricao.Cor}");
-        if (!context.Response.HasStarted)
-            await _next(context);
+        await _next(context);
     }
 }
 
 public class LinhaDeMontagemDescricao
 {
     public List <(string,string)> descricao = new List<(string,string)>();
-    public string? Cor { get; set; }
+    public string Cor { get; set; }
     public void AdicionarEtapa(string etapa, string descricao)
     {
         this.descricao.Add((etapa, descricao));
