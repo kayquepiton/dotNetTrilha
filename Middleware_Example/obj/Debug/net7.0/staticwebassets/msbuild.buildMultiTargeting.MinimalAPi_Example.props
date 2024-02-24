@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MinimalAPi_Example.props" />
+</Project>
