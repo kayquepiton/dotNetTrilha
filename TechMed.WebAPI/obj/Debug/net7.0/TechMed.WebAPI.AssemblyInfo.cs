@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechMed.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7534453237ce1f018e20b412a35593f339c69cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3b1c07fc9808cf140b50f22691b2aa0defe6cef")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechMed.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechMed.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
