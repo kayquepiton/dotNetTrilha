@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8T3+W5DpRqB5rq/HtPy4c6tOLcunnwHkmWXYpXFkpCaEe/cGRrM+olZqo30Q7RX9uus2+gIwKxi/Jktjl3VRNA==",
+  "dgSpecHash": "7y6F3iGPn0vwAR2gli0Iwk6uywHA8w3V2zDUbQiAIya9MGxuCk4Gkay31fS/A4w3z58ub9QIBvw6Kmq63WCApQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kayqu\\tic18_dotnet\\ExemplosAula\\Modulo4\\MinimalAPi_Example\\MinimalAPi_Example.csproj",
+  "projectFilePath": "C:\\Users\\kayqu\\dotNetTrilha\\Middleware_Example\\MinimalAPi_Example.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

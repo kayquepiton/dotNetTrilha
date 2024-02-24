@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kayqu\\tic18_dotnet\\ExemplosAula\\Modulo4\\MinimalAPi_Example\\MinimalAPi_Example.csproj": {}
+    "C:\\Users\\kayqu\\dotNetTrilha\\Middleware_Example\\MinimalAPi_Example.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kayqu\\tic18_dotnet\\ExemplosAula\\Modulo4\\MinimalAPi_Example\\MinimalAPi_Example.csproj": {
+    "C:\\Users\\kayqu\\dotNetTrilha\\Middleware_Example\\MinimalAPi_Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kayqu\\tic18_dotnet\\ExemplosAula\\Modulo4\\MinimalAPi_Example\\MinimalAPi_Example.csproj",
+        "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\Middleware_Example\\MinimalAPi_Example.csproj",
         "projectName": "MinimalAPi_Example",
-        "projectPath": "C:\\Users\\kayqu\\tic18_dotnet\\ExemplosAula\\Modulo4\\MinimalAPi_Example\\MinimalAPi_Example.csproj",
+        "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\Middleware_Example\\MinimalAPi_Example.csproj",
         "packagesPath": "C:\\Users\\kayqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kayqu\\tic18_dotnet\\ExemplosAula\\Modulo4\\MinimalAPi_Example\\obj\\",
+        "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\Middleware_Example\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
