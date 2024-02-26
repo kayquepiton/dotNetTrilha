@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Core\\TechMed.Core.csproj": {}
+    "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Core\\TechMed.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Core\\TechMed.Core.csproj": {
+    "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Core\\TechMed.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Core\\TechMed.Core.csproj",
+        "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Core\\TechMed.Core.csproj",
         "projectName": "TechMed.Core",
-        "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Core\\TechMed.Core.csproj",
+        "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Core\\TechMed.Core.csproj",
         "packagesPath": "C:\\Users\\kayqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Core\\obj\\",
+        "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

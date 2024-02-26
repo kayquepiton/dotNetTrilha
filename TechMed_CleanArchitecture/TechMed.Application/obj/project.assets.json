@@ -960,11 +960,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Application\\TechMed.Application.csproj",
+      "projectUniqueName": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Application\\TechMed.Application.csproj",
       "projectName": "TechMed.Application",
-      "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Application\\TechMed.Application.csproj",
+      "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Application\\TechMed.Application.csproj",
       "packagesPath": "C:\\Users\\kayqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Application\\obj\\",
+      "outputPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -986,11 +986,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Core\\TechMed.Core.csproj": {
-              "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Core\\TechMed.Core.csproj"
+            "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Core\\TechMed.Core.csproj": {
+              "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Core\\TechMed.Core.csproj"
             },
-            "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj"
+            "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj"
             }
           }
         }

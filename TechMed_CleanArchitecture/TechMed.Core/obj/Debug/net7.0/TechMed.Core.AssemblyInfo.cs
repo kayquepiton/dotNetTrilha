@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechMed.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7197ab46d4876e29e6416fcfa84a423026aebf9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b1c6af28dd4be761943e565bb8260e527e9a414")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechMed.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechMed.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UxogIyh251t8u0Rc3FlevifBfQuBmAztvOfqQnRJpAsmbGXzUfq38LJ9tUsgKglka5YUw0AiCFnfaLaYBF4ERg==",
+  "dgSpecHash": "pw5kVdJJFnjZQAbBppG3taUOFz+iL4aeImAecberXx8Xje7ukoJGirjxW7ToJUDmHDsPZ/fj6SetB6fmnB5rcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_CleanArchitecture\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.15\\microsoft.entityframeworkcore.7.0.15.nupkg.sha512",
     "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.15\\microsoft.entityframeworkcore.abstractions.7.0.15.nupkg.sha512",

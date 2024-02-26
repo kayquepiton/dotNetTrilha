@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TechMed.Core
-build_property.ProjectDir = C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.Core\
+build_property.ProjectDir = C:\Users\kayqu\dotNetTrilha\TechMed_CleanArchitecture\TechMed.Core\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
