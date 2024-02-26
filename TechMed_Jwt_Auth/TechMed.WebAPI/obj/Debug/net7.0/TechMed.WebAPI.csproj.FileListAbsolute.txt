@@ -6,19 +6,12 @@ C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Tec
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\TechMed.WebAPI.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\TechMed.WebAPI.pdb
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Humanizer.dll
-C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\MySqlConnector.dll
@@ -27,7 +20,6 @@ C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Swa
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\TechMed.Application.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\TechMed.Core.dll
 C:\Users\kayqu\dotNetTrilha\TechMed_Jwt_Auth\TechMed.WebAPI\bin\Debug\net7.0\TechMed.Infrastructure.dll

@@ -4,13 +4,11 @@ using TechMed.Core.Entities;
 using TechMed.Application.Services.Interfaces;
 using TechMed.Application.ViewModels;
 using TechMed.Application.InputModels;
-using Microsoft.AspNetCore.Authorization;
 
 namespace TechMed.WebAPI.Controllers;
 
 [ApiController]
 [Route("/api/v0.1/")]
-[Authorize]
 public class AtendimentoController : ControllerBase
 {
    private readonly IAtendimentoService _atendimentoService;
@@ -24,7 +22,6 @@ public class AtendimentoController : ControllerBase
    }
 
    [HttpPost("atendimento")]
-   [Authorize(Roles = "Medico")]
    public IActionResult Post([FromBody] NewAtendimentoInputModel atendimento)
    {
       _atendimentoService.Create(atendimento);

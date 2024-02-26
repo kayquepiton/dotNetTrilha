@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "F5vy7CJHdPdNfb/tIvo+CAe6y5xMaIE6ChiruOaDlg0/p+aDeaheexVKkXGE7y/DIPyj1IhhDFVLU9WfmFPEQQ==",
+  "dgSpecHash": "UxogIyh251t8u0Rc3FlevifBfQuBmAztvOfqQnRJpAsmbGXzUfq38LJ9tUsgKglka5YUw0AiCFnfaLaYBF4ERg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kayqu\\dotNetTrilha\\TechMed_Jwt_Auth\\TechMed.Infrastructure\\TechMed.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -17,13 +17,8 @@
     "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.3.1\\microsoft.identitymodel.abstractions.7.3.1.nupkg.sha512",
-    "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.3.1\\microsoft.identitymodel.jsonwebtokens.7.3.1.nupkg.sha512",
-    "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.identitymodel.logging\\7.3.1\\microsoft.identitymodel.logging.7.3.1.nupkg.sha512",
-    "C:\\Users\\kayqu\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.3.1\\microsoft.identitymodel.tokens.7.3.1.nupkg.sha512",
     "C:\\Users\\kayqu\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
-    "C:\\Users\\kayqu\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
-    "C:\\Users\\kayqu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.3.1\\system.identitymodel.tokens.jwt.7.3.1.nupkg.sha512"
+    "C:\\Users\\kayqu\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
