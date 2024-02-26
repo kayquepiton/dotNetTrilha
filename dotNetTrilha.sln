@@ -3,15 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TechMed_Jwt_Auth", "TechMed_Jwt_Auth", "{6CAF8E7F-11D5-46CE-8C84-F51D1D918005}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechMed.Application", "TechMed_Jwt_Auth\TechMed.Application\TechMed.Application.csproj", "{EC37AC9E-E9FB-45D2-ABDA-68F8DC0013ED}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechMed.Core", "TechMed_Jwt_Auth\TechMed.Core\TechMed.Core.csproj", "{08816A39-822B-4919-BB3D-35ACB982897B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechMed.Infrastructure", "TechMed_Jwt_Auth\TechMed.Infrastructure\TechMed.Infrastructure.csproj", "{A3BEF8EE-9CE7-4EB5-8751-C4785718AA51}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechMed.WebAPI", "TechMed_Jwt_Auth\TechMed.WebAPI\TechMed.WebAPI.csproj", "{7199CB93-561C-4D88-9339-544EF1480AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{57C76F33-F91B-4DEA-AA99-215F4880B365}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,33 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EC37AC9E-E9FB-45D2-ABDA-68F8DC0013ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC37AC9E-E9FB-45D2-ABDA-68F8DC0013ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC37AC9E-E9FB-45D2-ABDA-68F8DC0013ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC37AC9E-E9FB-45D2-ABDA-68F8DC0013ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{08816A39-822B-4919-BB3D-35ACB982897B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08816A39-822B-4919-BB3D-35ACB982897B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08816A39-822B-4919-BB3D-35ACB982897B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08816A39-822B-4919-BB3D-35ACB982897B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A3BEF8EE-9CE7-4EB5-8751-C4785718AA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3BEF8EE-9CE7-4EB5-8751-C4785718AA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3BEF8EE-9CE7-4EB5-8751-C4785718AA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3BEF8EE-9CE7-4EB5-8751-C4785718AA51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7199CB93-561C-4D88-9339-544EF1480AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7199CB93-561C-4D88-9339-544EF1480AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7199CB93-561C-4D88-9339-544EF1480AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7199CB93-561C-4D88-9339-544EF1480AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C76F33-F91B-4DEA-AA99-215F4880B365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C76F33-F91B-4DEA-AA99-215F4880B365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C76F33-F91B-4DEA-AA99-215F4880B365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C76F33-F91B-4DEA-AA99-215F4880B365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EC37AC9E-E9FB-45D2-ABDA-68F8DC0013ED} = {6CAF8E7F-11D5-46CE-8C84-F51D1D918005}
-		{08816A39-822B-4919-BB3D-35ACB982897B} = {6CAF8E7F-11D5-46CE-8C84-F51D1D918005}
-		{A3BEF8EE-9CE7-4EB5-8751-C4785718AA51} = {6CAF8E7F-11D5-46CE-8C84-F51D1D918005}
-		{7199CB93-561C-4D88-9339-544EF1480AD5} = {6CAF8E7F-11D5-46CE-8C84-F51D1D918005}
-	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {51A88A76-7330-41AB-A551-8FE6F130335B}
+		SolutionGuid = {70C34B5A-9730-4001-8172-C2205210CCF2}
 	EndGlobalSection
 EndGlobal
